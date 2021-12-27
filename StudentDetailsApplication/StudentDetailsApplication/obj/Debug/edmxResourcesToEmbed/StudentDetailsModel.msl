@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StudentDetailsNamespaceStoreContainer" CdmEntityContainer="StudentDetaiIsEntities">
+    <EntitySetMapping Name="STDTBLs">
+      <EntityTypeMapping TypeName="StudentDetailsNamespace.STDTBL">
+        <MappingFragment StoreEntitySet="STDTBL">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="StudentAge" ColumnName="StudentAge" />
+          <ScalarProperty Name="StudentCourse" ColumnName="StudentCourse" />
+          <ScalarProperty Name="StudentCountry" ColumnName="StudentCountry" />
+          <ScalarProperty Name="StudentCity" ColumnName="StudentCity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
